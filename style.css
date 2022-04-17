@@ -1,0 +1,43 @@
+header p{
+    color: red;
+}
+
+
+legend{
+    background-color: rgb(134, 241, 227);
+}
+
+form{
+    background-color: rgb(159, 163, 163);
+}
+
+body{
+    background-color: rgb(214, 255, 253);
+}
+
+fieldset#custInfo > div.formRow {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 7px 0px;
+ }
+ 
+ fieldset#custInfo > div.formRow > * {
+    flex: 1 1 75px;
+ }
+
+
+
+textarea{
+    right: auto;
+    width: 500px;
+    height: 100px;
+}
+
+img{
+  position: absolute;
+  right: 150px;
+  width: 200px;
+  height: 200px;
+  
+}
+
